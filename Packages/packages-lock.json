@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.ptc.vuforia.engine": {
+      "version": "9.5.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://registry.packages.developer.vuforia.com"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -97,7 +106,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.6",
+      "version": "1.2.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
