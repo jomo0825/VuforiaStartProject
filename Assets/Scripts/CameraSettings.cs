@@ -95,7 +95,7 @@ public class CameraSettings : MonoBehaviour
 
     public void TriggerAutofocusEvent()
     {
-        StatusMessage.Instance.Display("Manual Focus Triggered", true);
+        //StatusMessage.Instance.Display("Manual Focus Triggered", true);
 
         // Trigger an autofocus event
         CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_TRIGGERAUTO);

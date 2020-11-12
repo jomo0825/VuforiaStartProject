@@ -115,7 +115,7 @@ public class TrackableSettings : MonoBehaviour
             }
 
             // Clear the status message
-            StatusMessage.Instance.Display(string.Empty);
+            //StatusMessage.Instance.Display(string.Empty);
         }
     }
 
@@ -128,7 +128,7 @@ public class TrackableSettings : MonoBehaviour
     // ElapsedEventHandler(object sender, ElapsedEventArgs e)
     void RelocalizingStatusDelay(System.Object source, ElapsedEventArgs e)
     {
-        StatusMessage.Instance.Display("Point camera to previous position to restore tracking");
+        //StatusMessage.Instance.Display("Point camera to previous position to restore tracking");
 
         if (!this.resetDeviceTrackerTimer.Enabled)
         {
